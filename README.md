@@ -1,8 +1,10 @@
 # aoc22
 My solutions in java for advent of code 2022
 
-You might be interested in the b.java class which all solution classes for each day extend. Solution have to respect the day<x> naming convention and the b class will automatically fetch the input from the server for you.
-your class has to implement one method for each problem part.
+You might be interested in the b.java class which all solution classes for each day extend. Solution have to respect the day\<x\> naming convention and the b class will automatically fetch the input from the server for you.In the main method you can select which part gets executed and where the input data is taken from (local or from server)
+Note that for the remote http fetching of input data, you first need to [retrieve the session cookie](https://www.cookieyes.com/blog/how-to-check-cookies-on-your-website-manually/) corresponding to your account and replace it in the b class session variable accordingly.
+
+Your derived solution class has to implement one method for each problem part.
 
 There are 2 flavours you can use:
 
